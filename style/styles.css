@@ -152,7 +152,7 @@ body {
  transition: transform 0.3s ease; /* Плавная анимация трансформации */
  }
 .experience-card:hover {
- transform: translateX(5px); /* Сдвиг вправо при наведении */
+ transform: translateX(15px); /* Сдвиг вправо при наведении */
 }
 .experience-title {
  font-size: 20px; /* Размер шрифта заголовка опыта */
