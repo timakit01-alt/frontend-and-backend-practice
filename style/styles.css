@@ -174,3 +174,106 @@ body {
  padding: 30px; /* Внутренние отступы */
  margin-top: 50px; /* Отступ сверху */
 }
+
+/* ===== ФУТЕР-NEWS ===== */
+.footer-n {
+ background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); /* Темный
+градиентный фон */
+ color: white; /* Белый цвет текста */
+ text-align: center; /* Выравнивание по центру */
+ padding: 30px; /* Внутренние отступы */
+ margin-top: 131px; /* Отступ сверху */
+}
+
+/* ===== ФУТЕР-Contact ===== */
+.footer-c {
+ background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); /* Темный
+градиентный фон */
+ color: white; /* Белый цвет текста */
+ text-align: center; /* Выравнивание по центру */
+ padding: 30px; /* Внутренние отступы */
+ margin-top: 159px; /* Отступ сверху */
+}
+
+/* ===== ФУТЕР-Goods ===== */
+.footer-g {
+ background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); /* Темный
+градиентный фон */
+ color: white; /* Белый цвет текста */
+ text-align: center; /* Выравнивание по центру */
+ padding: 30px; /* Внутренние отступы */
+ margin-top: 183px; /* Отступ сверху */
+}
+
+/* Стили для контейнера кнопки (для центрирования) */
+.contact-button-block {
+    text-align: center; /* Центрирует кнопку в блоке */
+    margin-top: 30px;
+}
+
+/* Стили самой кнопки */
+.contact-button-block button {
+    /* Фон с градиентом, похожим на ваш образец */
+    background: linear-gradient(145deg, #7c4dff 0%, #a96fdd 100%); 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px; /* Скругленные углы */
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тень */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-button-block button:hover {
+    transform: translateY(-2px); /* Небольшой подъём при наведении */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+.good-item {
+    flex: 0 1 300px; 
+    text-align: center; 
+}
+
+
+
+.good-price {
+    color: red; 
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+.goods-container {
+    display: grid; 
+    
+    
+    grid-template-columns: 1fr 1fr 1fr; 
+    
+    gap: 30px; 
+    padding: 30px; 
+    justify-items: center; 
+}
+
+
+
+
+.good-photo {
+
+    max-width: 100%; 
+    height: auto;
+    border-radius: 5px; 
+}
+
